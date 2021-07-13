@@ -1,6 +1,7 @@
 # 環境構築
 ```
 $ docker-compose up -d
+$ docker-compose run --rm web rails db:migrate
 $ docker-compose run --rm web rails db:seed
 ```
 
